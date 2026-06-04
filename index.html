@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leopoldo C. Servaña III — BSIT Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Scanline overlay -->
+  <div class="scanlines" aria-hidden="true"></div>
+  <!-- Grid bg -->
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">
+      <span class="logo-bracket">[</span>LCS3<span class="logo-bracket">]</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu" id="navToggle">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-tag"><span class="blink">▮</span> AVAILABLE FOR HIRE</div>
+      <h1 class="hero-name">Leopoldo C.<br/><span class="accent">Servaña III</span></h1>
+      <p class="hero-title">
+        <span class="typed" id="typed"></span><span class="cursor blink">_</span>
+      </p>
+      <p class="hero-desc">
+        BSIT graduate specializing in web development. Building clean, functional, 
+        and purposeful digital experiences from the Philippines.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">view projects</a>
+        <a href="#contact" class="btn btn-ghost">get in touch</a>
+      </div>
+      <div class="hero-meta">
+        <span><span class="dot green"></span> Metro Manila, PH</span>
+        <span><span class="dot yellow"></span> BSIT Graduate</span>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="t-dot red"></span>
+          <span class="t-dot yellow"></span>
+          <span class="t-dot green"></span>
+          <span class="t-title">portfolio.sh</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="t-cmd">$</span> whoami</p>
+          <p class="t-out">leopoldo_servana_iii</p>
+          <p><span class="t-cmd">$</span> cat skills.txt</p>
+          <p class="t-out">HTML · CSS · JavaScript</p>
+          <p class="t-out">PHP · MySQL · React</p>
+          <p class="t-out">Bootstrap · Tailwind</p>
+          <p><span class="t-cmd">$</span> ls projects/</p>
+          <p class="t-out"><span class="t-dir">web_apps/</span>  <span class="t-dir">mobile/</span>  <span class="t-dir">tools/</span></p>
+          <p><span class="t-cmd">$</span> <span class="blink">_</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">01 // about</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Who I Am</h2>
+          <p>I'm a Bachelor of Science in Information Technology student with a focus on web development. I love crafting applications that solve real-world problems — from building responsive front-ends to designing database-driven back-end systems.</p>
+          <p>When I'm not coding, I'm exploring new frameworks, contributing to small projects, and continuously leveling up my stack.</p>
+          <div class="about-stats">
+            <div class="stat-box">
+              <span class="stat-num" id="projectCount">0</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Years Coding</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Cups of Coffee</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-img-wrap">
+          <div class="about-img-placeholder">
+            <img src="assets/avatar.jpg" alt="Leopoldo C. Servaña III" class="avatar-photo" />
+            <div class="avatar-ring"></div>
+            <div class="avatar-ring ring2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section dark-section" id="skills">
+    <div class="container">
+      <div class="section-label">02 // skills</div>
+      <h2>Tech Stack</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">⟨/⟩</div>
+          <h3>Front-End</h3>
+          <ul>
+            <li>HTML5 &amp; CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+            <li>Bootstrap / Tailwind</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚙</div>
+          <h3>Back-End</h3>
+          <ul>
+            <li>PHP</li>
+            <li>Node.js</li>
+            <li>MySQL / MariaDB</li>
+            <li>REST APIs</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">◈</div>
+          <h3>Tools</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>Android Studio</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">☁</div>
+          <h3>Deployment</h3>
+          <ul>
+            <li>GitHub Pages</li>
+            <li>Vercel</li>
+            <li>cPanel / Hosting</li>
+            <li>Firebase</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label">03 // projects</div>
+      <h2>Recent Projects</h2>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">all</button>
+        <button class="filter-btn" data-filter="web">web</button>
+        <button class="filter-btn" data-filter="mobile">mobile</button>
+        <button class="filter-btn" data-filter="software">software</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Projects loaded from localStorage / projects.json -->
+        <div class="project-empty" id="noProjects" style="display:none">
+          <p>No projects yet.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section dark-section" id="contact">
+    <div class="container">
+      <div class="section-label">04 // contact</div>
+      <h2>Get In Touch</h2>
+      <p class="contact-sub">Have a project in mind or want to collaborate? Let's talk.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">✉</span>
+            <span>polelele09@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">⌘</span>
+            <span>github.com/dezamon1146</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">◎</span>
+            <span>Nueva Ecija, Philippines</span>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/mdavovbb" method="POST">
+          <input type="text" name="name" placeholder="your name" required />
+          <input type="email" name="email" placeholder="your email" required />
+          <textarea name="message" placeholder="your message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">send message</button>
+          <p class="form-note">* Or email directly at <a href="mailto:polelele09@gmail.com">polelele09@gmail.com</a></p>
+        </form>
+        <div id="formSuccess" style="display:none" class="alert-success-contact">
+          ✅ Message sent! I'll get back to you soon.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        <span class="logo-bracket">[</span>LCS3<span class="logo-bracket">]</span>
+        &nbsp;·&nbsp; Leopoldo C. Servaña III &nbsp;·&nbsp; BSIT Web Developer
+      </p>
+      <p class="footer-sub">Built with HTML · CSS · JavaScript · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
