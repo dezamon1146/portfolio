@@ -39,8 +39,26 @@ if (toggle) {
 
 // ── PROJECT STORAGE HELPERS ───────────────────────────────────
 function getProjects() {
-  try { return JSON.parse(localStorage.getItem('lcs3_projects') || '[]'); }
-  catch { return []; }
+  const stored = localStorage.getItem('lcs3_projects');
+  if (stored) return JSON.parse(stored);
+
+  // Fallback — paste your exported projects array here
+  return [
+    {
+      "title": "Genson Surveying",
+      "type": "web",
+      "description": "GENSON SURVEYING AND ENGINEERING  CONSULTANTS (GSEC) is a 100% Filipino-owned Engineering firm and has five (5) subsidiaries doing professional services in the field of Real Estate, Surveying, Engineering, Construction Environmental Planning and Consultancy.",
+      "techs": [
+        "Wordpress"
+      ],
+      "image": "https://img1.wsimg.com/isteam/ip/baf0957c-466f-45a8-8057-c36b596fab96/blob-1a4c249.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,h:600,cg:true",
+      "liveUrl": "https://gensonsurveying.com/",
+      "repoUrl": "",
+      "downloadUrl": "",
+      "id": 1780573873944,
+      "createdAt": "2026-06-04T11:51:13.944Z"
+    }
+  ];
 }
 
 function tagClass(type) {
