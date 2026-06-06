@@ -44,6 +44,25 @@ function getProjects() {
 
   // Fallback — paste your exported projects array here
   return [
+      {
+      "id": 1780730077733,
+      "createdAt": "2026-06-06T07:14:37.733Z",
+      "title": "IponGo",
+      "type": "mobile",
+      "description": "IponGo is a polished, offline personal savings companion and transaction tracker. Designed with a mobile-first philosophy, it helps users establish robust financial habits, monitor daily spend limits, and gamify their savings goals through intuitive visual indicators and interactive badges.",
+      "techs": [
+        "React",
+        "Typescript",
+        "Vite",
+        "Talewind",
+        "Lucide React",
+        "SQLite"
+      ],
+      "image": "https://github.com/dezamon1146/IponGo/blob/main/logo.png?raw=true",
+      "liveUrl": "",
+      "repoUrl": "",
+      "downloadUrl": "https://github.com/dezamon1146/IponGo/releases/download/v1.2/IponGo.apk"
+    },
     {
       "title": "Genson Surveying",
       "type": "web",
