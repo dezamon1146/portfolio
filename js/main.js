@@ -45,6 +45,23 @@ function getProjects() {
   // Fallback — paste your exported projects array here
   return [
       {
+      "id": 1781004076343,
+      "createdAt": "2026-06-09T11:21:16.343Z",
+      "title": "FlowDesk",
+      "type": "web",
+      "description": "A clean, powerful project management tool. Organize your tasks,\ntrack progress across projects, and stay on top of every deadline.",
+      "techs": [
+        "PHP",
+        "MySQL",
+        "Vanilla JS",
+        "CSS"
+      ],
+      "image": "https://cdn.jsdelivr.net/gh/dezamon1146/FlowDesk@main/flowdesk-logos/flowdesk-icon.svg",
+      "liveUrl": "https://deskflow.infinityfree.io/",
+      "repoUrl": "",
+      "downloadUrl": ""
+    }, 
+     {
       "id": 1780730077733,
       "createdAt": "2026-06-06T07:14:37.733Z",
       "title": "IponGo",
