@@ -21,4 +21,4 @@ A dark-themed developer portfolio built with pure HTML, CSS, and JavaScript — 
 ## Contact
 - Email: polelele09@gmail.com
 - GitHub: github.com/dezamon1146
-- Location: Nueva Ecija, Philippines
+- Location: Llanera, Nueva Ecija, Philippines
