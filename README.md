@@ -19,6 +19,7 @@ A dark-themed developer portfolio built with pure HTML, CSS, and JavaScript — 
 - Download links for APKs and software releases
 
 ## Contact
+- Contact Number: 09996565332
 - Email: polelele09@gmail.com
 - GitHub: github.com/dezamon1146
 - Location: Llanera, Nueva Ecija, Philippines
